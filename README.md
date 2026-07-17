@@ -52,19 +52,21 @@ graph TD
     I -.->|Dashboard| F
     I -.->|Manual Intervention| D
 
-    style A fill:#141414,stroke:#4db3d4,stroke-width:2px,color:#fff
-    style B fill:#0878A6,stroke:#065e91,stroke-width:2px,color:#fff
-    style C fill:#334155,stroke:#64748b,stroke-width:2px,color:#fff
-    style D fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fff
-    style E fill:#0d823c,stroke:#065f46,stroke-width:2px,color:#fff
-    style I fill:#019ad8,stroke:#065e91,stroke-width:2px,color:#fff
-    style F1 fill:#fbbf24,stroke:#b45309,stroke-width:2px,color:#111
-    style F2 fill:#fbbf24,stroke:#b45309,stroke-width:2px,color:#111
-    style G fill:#38bdf8,stroke:#065e91,stroke-width:2px,color:#111
-    style H fill:#1e3a5f,stroke:#4db3d4,stroke-width:2px,color:#fff
+    style A fill:rgba(148,163,184,0.08),stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
+    style B fill:rgba(77,179,212,0.12),stroke:#4db3d4,stroke-width:1.5px,color:#4db3d4
+    style C fill:rgba(148,163,184,0.08),stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
+    style D fill:rgba(255,107,99,0.15),stroke:#ff6b63,stroke-width:1.5px,color:#ff9b94
+    style E fill:rgba(52,211,153,0.12),stroke:#34d399,stroke-width:1.5px,color:#34d399
+    style I fill:rgba(1,154,216,0.12),stroke:#019ad8,stroke-width:1.5px,color:#4db3d4
+    style F1 fill:rgba(251,191,36,0.12),stroke:#fbbf24,stroke-width:1.5px,color:#fbbf24
+    style F2 fill:rgba(251,191,36,0.12),stroke:#fbbf24,stroke-width:1.5px,color:#fbbf24
+    style G fill:rgba(56,189,248,0.12),stroke:#38bdf8,stroke-width:1.5px,color:#38bdf8
+    style H fill:rgba(148,163,184,0.08),stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
 ```
 
 *Note: The repositories highlighted below are open-source, generalized rebuilds of these exact fintech problem spaces.*
+
+> 💡 **For international partners:** CNAB (Brazilian bank file exchange) is similar in purpose to file-based banking standards like **ACH**, **SEPA**, or **ISO 20022**. Brazilian clearinghouses (**B3**, **Núclea**) play a role similar to central securities depositories (e.g. **DTCC**) and collateral registry systems.
 
 ---
 
@@ -88,6 +90,9 @@ graph TD
 ![Domain-Driven Design](https://img.shields.io/badge/Domain--Driven_Design-DDD-blue?style=flat-square)
 ![Automated Testing](https://img.shields.io/badge/Automated_Testing-92%25_Coverage-green?style=flat-square&logo=phpunit&logoColor=white)
 ![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-Solid-purple?style=flat-square)
+![Event-Driven Architecture](https://img.shields.io/badge/Event--Driven_Architecture-black?style=flat-square)
+![Message Queues](https://img.shields.io/badge/Message_Queues-black?style=flat-square)
+![Reconciliation](https://img.shields.io/badge/Bank_Reconciliation-black?style=flat-square)
 
 ---
 
