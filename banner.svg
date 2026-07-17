@@ -15,24 +15,26 @@
 
   <g font-family="'Space Grotesk','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
     <text x="48" y="76" font-size="15" fill="rgba(251,251,253,0.55)" letter-spacing="0.06em">OLÁ, EU SOU</text>
-    <text x="48" y="118" font-size="38" font-weight="700" fill="#fbfbfd" letter-spacing="-0.02em">Carlos Eduardo Vaz</text>
+    <text x="48" y="118" font-size="38" font-weight="700" fill="#fbfbfd" letter-spacing="-0.02em">Carlos Oliveira</text>
     <text x="48" y="146" font-size="15" font-weight="600" fill="#4db3d4" letter-spacing="0.08em">FULL-STACK ENGINEER</text>
     <text x="48" y="172" font-size="14" fill="rgba(251,251,253,0.7)">Crédito &amp; formalização financeira · DDD ponta a ponta</text>
   </g>
 
-  <!-- Stack pills, facet-ui token colors (kpi-total / kpi-volume / kpi-contratos) -->
+  <!-- Stack pills, facet-ui token colors (kpi-total / kpi-volume / kpi-contratos)
+       textLength forces the label to fit the pill regardless of which monospace
+       font the client substitutes (JetBrains Mono isn't guaranteed to be installed). -->
   <g font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600">
-    <rect x="48" y="188" width="140" height="24" rx="12" fill="rgba(77,179,212,0.12)" stroke="rgba(77,179,212,0.35)" />
+    <rect x="48" y="188" width="150" height="24" rx="12" fill="rgba(77,179,212,0.12)" stroke="rgba(77,179,212,0.35)" />
     <circle cx="63" cy="200" r="4" fill="#4db3d4" />
-    <text x="75" y="204" fill="#4db3d4">PHP &amp; LARAVEL</text>
+    <text x="75" y="204" fill="#4db3d4" textLength="111" lengthAdjust="spacingAndGlyphs">PHP &amp; LARAVEL</text>
 
-    <rect x="196" y="188" width="152" height="24" rx="12" fill="rgba(52,211,153,0.12)" stroke="rgba(52,211,153,0.35)" />
-    <circle cx="211" cy="200" r="4" fill="#34d399" />
-    <text x="223" y="204" fill="#34d399">VUE.JS &amp; TYPESCRIPT</text>
+    <rect x="210" y="188" width="210" height="24" rx="12" fill="rgba(52,211,153,0.12)" stroke="rgba(52,211,153,0.35)" />
+    <circle cx="225" cy="200" r="4" fill="#34d399" />
+    <text x="237" y="204" fill="#34d399" textLength="171" lengthAdjust="spacingAndGlyphs">VUE.JS &amp; TYPESCRIPT</text>
 
-    <rect x="356" y="188" width="140" height="24" rx="12" fill="rgba(56,189,248,0.12)" stroke="rgba(56,189,248,0.35)" />
-    <circle cx="371" cy="200" r="4" fill="#38bdf8" />
-    <text x="383" y="204" fill="#38bdf8">DDD ARCHITECTURE</text>
+    <rect x="432" y="188" width="180" height="24" rx="12" fill="rgba(56,189,248,0.12)" stroke="rgba(56,189,248,0.35)" />
+    <circle cx="447" cy="200" r="4" fill="#38bdf8" />
+    <text x="459" y="204" fill="#38bdf8" textLength="141" lengthAdjust="spacingAndGlyphs">DDD ARCHITECTURE</text>
   </g>
 
   <!-- Pipeline nodes (right side), same brand accent -->
