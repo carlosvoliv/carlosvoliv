@@ -37,21 +37,20 @@ Here is a visual map of how these components connect:
 
 ```mermaid
 graph TD
-    A[📄 Raw PDF Credit Document] -->|Extraction Engine| B(credit-doc-extract)
-    B -->|Structured Data| C{Domain Rules & DDD}
+    A[📄 Raw Credit Document] -->|Parsing| B["Document Extraction<br/>(credit-doc-extract)"]
+    B -->|Structured Data| C{DDD Validation Engine}
     C -->|Invalid| D[❌ Rejected / Manual Audit]
-    C -->|Valid| E[💼 Securitized Receivable]
+    C -->|Valid| E[💼 Receivable]
     E --> F[🏦 Clearinghouse Registry]
     F -->|Batch Registration| F1(B3)
     F -->|Batch Registration| F2(Núclea)
-    E --> G[📄 CNAB Exchange]
-    G -->|Read/Write/Validate| G1(cnab-toolkit)
-    G1 -->|Bank Files| H[🏦 Partner Banks]
-    
+    E --> G["CNAB Exchange<br/>(cnab-toolkit)"]
+    G -->|Bank Files| H[🏦 Partner Banks]
+
     %% UI Layer
-    I[🎨 Operator UI facet-ui] -.->|Review & Auditing| B
-    I -.->|Operations Dashboard| F
-    I -.->|Manual Interventions| D
+    I["🎨 Operator UI<br/>(facet-ui)"] -.->|Review| B
+    I -.->|Dashboard| F
+    I -.->|Manual Intervention| D
 
     style A fill:#141414,stroke:#4db3d4,stroke-width:2px,color:#fff
     style B fill:#0878A6,stroke:#065e91,stroke-width:2px,color:#fff
@@ -61,7 +60,7 @@ graph TD
     style I fill:#019ad8,stroke:#065e91,stroke-width:2px,color:#fff
     style F1 fill:#fbbf24,stroke:#b45309,stroke-width:2px,color:#111
     style F2 fill:#fbbf24,stroke:#b45309,stroke-width:2px,color:#111
-    style G1 fill:#38bdf8,stroke:#065e91,stroke-width:2px,color:#111
+    style G fill:#38bdf8,stroke:#065e91,stroke-width:2px,color:#111
     style H fill:#1e3a5f,stroke:#4db3d4,stroke-width:2px,color:#fff
 ```
 
