@@ -110,7 +110,7 @@ I extract the architectural concepts from my daily fintech tasks and rebuild the
 > 
 > * **Key Stacks:** Laravel, DDD, PDF Parsing, Test-Driven Development (TDD)
 
-#### 🎨 [facet-ui](https://github.com/carlosvoliv/facet-ui)
+#### 🎨 [facet-ui](https://github.com/carlosvoliv/facet-ui) · [Live Demo](https://carlosvoliv.github.io/facet-ui/)
 > A lightweight Vue 3 design system equipped with tokens-as-data, native dark mode support, and 19+ highly customizable presets.
 > 
 > * **Key Stacks:** Vue 3, TypeScript, CSS Variables, TailwindCSS
