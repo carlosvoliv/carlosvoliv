@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220">
+  <defs>
+    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0878A6" />
+      <stop offset="100%" stop-color="#019ad8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card -->
+  <rect x="1" y="1" width="998" height="218" rx="16" fill="#141414" />
+  <rect x="1" y="1" width="998" height="218" rx="16" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+
+  <!-- Top brand strip (facet-ui token: header-grad) -->
+  <path d="M1,17 a16,16 0 0 1 16,-16 h966 a16,16 0 0 1 16,16 v6 h-998 z" fill="url(#header-grad)" />
+
+  <g font-family="'Space Grotesk','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="48" y="76" font-size="15" fill="rgba(251,251,253,0.55)" letter-spacing="0.06em">OLÁ, EU SOU</text>
+    <text x="48" y="118" font-size="38" font-weight="700" fill="#fbfbfd" letter-spacing="-0.02em">Carlos Eduardo Vaz</text>
+    <text x="48" y="146" font-size="15" font-weight="600" fill="#4db3d4" letter-spacing="0.08em">FULL-STACK ENGINEER</text>
+    <text x="48" y="172" font-size="14" fill="rgba(251,251,253,0.7)">Crédito &amp; formalização financeira · DDD ponta a ponta</text>
+  </g>
+
+  <!-- Stack pills, facet-ui token colors (kpi-total / kpi-volume / kpi-contratos) -->
+  <g font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600">
+    <rect x="48" y="188" width="140" height="24" rx="12" fill="rgba(77,179,212,0.12)" stroke="rgba(77,179,212,0.35)" />
+    <circle cx="63" cy="200" r="4" fill="#4db3d4" />
+    <text x="75" y="204" fill="#4db3d4">PHP &amp; LARAVEL</text>
+
+    <rect x="196" y="188" width="152" height="24" rx="12" fill="rgba(52,211,153,0.12)" stroke="rgba(52,211,153,0.35)" />
+    <circle cx="211" cy="200" r="4" fill="#34d399" />
+    <text x="223" y="204" fill="#34d399">VUE.JS &amp; TYPESCRIPT</text>
+
+    <rect x="356" y="188" width="140" height="24" rx="12" fill="rgba(56,189,248,0.12)" stroke="rgba(56,189,248,0.35)" />
+    <circle cx="371" cy="200" r="4" fill="#38bdf8" />
+    <text x="383" y="204" fill="#38bdf8">DDD ARCHITECTURE</text>
+  </g>
+
+  <!-- Pipeline nodes (right side), same brand accent -->
+  <g opacity="0.9" font-family="'Inter',-apple-system,sans-serif" font-size="11" font-weight="700">
+    <path d="M 630,150 Q 720,60 800,120 T 940,70" fill="none" stroke="url(#header-grad)" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+    <circle cx="630" cy="150" r="6" fill="#141414" stroke="#4db3d4" stroke-width="3" />
+    <text x="630" y="172" fill="rgba(251,251,253,0.55)" text-anchor="middle">PDF</text>
+    <circle cx="742" cy="98" r="6" fill="#141414" stroke="#34d399" stroke-width="3" />
+    <text x="742" y="82" fill="rgba(251,251,253,0.55)" text-anchor="middle">DDD</text>
+    <circle cx="850" cy="128" r="6" fill="#141414" stroke="#38bdf8" stroke-width="3" />
+    <text x="850" y="150" fill="rgba(251,251,253,0.55)" text-anchor="middle">B3 / CNAB</text>
+    <polygon points="938,62 946,70 938,78 930,70" fill="#0878A6" stroke="#4db3d4" stroke-width="1.5" />
+    <text x="938" y="50" fill="#4db3d4" text-anchor="middle">SETTLED</text>
+  </g>
+</svg>
