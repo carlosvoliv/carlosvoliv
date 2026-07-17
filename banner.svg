@@ -14,10 +14,10 @@
   <path d="M1,17 a16,16 0 0 1 16,-16 h966 a16,16 0 0 1 16,16 v6 h-998 z" fill="url(#header-grad)" />
 
   <g font-family="'Space Grotesk','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-    <text x="48" y="76" font-size="15" fill="rgba(251,251,253,0.55)" letter-spacing="0.06em">OLÁ, EU SOU</text>
+    <text x="48" y="76" font-size="15" fill="rgba(251,251,253,0.55)" letter-spacing="0.06em">HI, I'M</text>
     <text x="48" y="118" font-size="38" font-weight="700" fill="#fbfbfd" letter-spacing="-0.02em">Carlos Oliveira</text>
     <text x="48" y="146" font-size="15" font-weight="600" fill="#4db3d4" letter-spacing="0.08em">FULL-STACK ENGINEER</text>
-    <text x="48" y="172" font-size="14" fill="rgba(251,251,253,0.7)">Crédito &amp; formalização financeira · DDD ponta a ponta</text>
+    <text x="48" y="172" font-size="14" fill="rgba(251,251,253,0.7)">Credit &amp; financial formalization · DDD end-to-end</text>
   </g>
 
   <!-- Stack pills, facet-ui token colors (kpi-total / kpi-volume / kpi-contratos)
