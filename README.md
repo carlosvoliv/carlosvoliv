@@ -55,11 +55,14 @@ graph TD
 
     style A fill:#141414,stroke:#4db3d4,stroke-width:2px,color:#fff
     style B fill:#0878A6,stroke:#065e91,stroke-width:2px,color:#fff
+    style C fill:#334155,stroke:#64748b,stroke-width:2px,color:#fff
+    style D fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fff
     style E fill:#0d823c,stroke:#065f46,stroke-width:2px,color:#fff
     style I fill:#019ad8,stroke:#065e91,stroke-width:2px,color:#fff
     style F1 fill:#fbbf24,stroke:#b45309,stroke-width:2px,color:#111
     style F2 fill:#fbbf24,stroke:#b45309,stroke-width:2px,color:#111
     style G1 fill:#38bdf8,stroke:#065e91,stroke-width:2px,color:#111
+    style H fill:#1e3a5f,stroke:#4db3d4,stroke-width:2px,color:#fff
 ```
 
 *Note: The repositories highlighted below are open-source, generalized rebuilds of these exact fintech problem spaces.*
@@ -68,34 +71,24 @@ graph TD
 
 ### 🛠️ Tech Stack & Toolkit
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Backend & Database</h4>
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-    </td>
-    <td width="50%" valign="top">
-      <h4>Frontend & Tooling</h4>
-      <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h4>Methodologies & Quality</h4>
-      <img src="https://img.shields.io/badge/Domain--Driven_Design-DDD-blue?style=flat-square" alt="DDD" />
-      <img src="https://img.shields.io/badge/Automated_Testing-92%25_Coverage-green?style=flat-square&logo=phpunit&logoColor=white" alt="Testing" />
-      <img src="https://img.shields.io/badge/Clean_Architecture-Solid-purple?style=flat-square" alt="Clean Arch" />
-    </td>
-  </tr>
-</table>
+#### Backend & Database
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+#### Frontend & Tooling
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+
+#### Methodologies & Quality
+![Domain-Driven Design](https://img.shields.io/badge/Domain--Driven_Design-DDD-blue?style=flat-square)
+![Automated Testing](https://img.shields.io/badge/Automated_Testing-92%25_Coverage-green?style=flat-square&logo=phpunit&logoColor=white)
+![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-Solid-purple?style=flat-square)
 
 ---
 
@@ -123,7 +116,11 @@ I extract the architectural concepts from my daily fintech tasks and rebuild the
 ### 📊 GitHub Activity & Stats
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=carlosvoliv&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=carlosvoliv&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=carlosvoliv&theme=default&hide_border=true" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=carlosvoliv&theme=default&hide_border=true" alt="GitHub Streak" />
+  </picture>
 </div>
 
 ---
