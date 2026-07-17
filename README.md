@@ -1,5 +1,9 @@
 ### Hi, I'm Carlos 👋
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlosvoliv/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vazkdu@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=carlosvoliv&style=flat-square&color=0D1117&label=PROFILE+VIEWS)
+
 Full-stack engineer working on credit and financial-formalization systems — PHP/Laravel on the backend, Vue/TypeScript on the front, Domain-Driven Design end to end.
 
 At my day job (private fintech codebase) I build the pipeline that takes a credit document from raw PDF to a registered, securitized receivable: document extraction, batch registration with clearinghouses (Núclea, B3), bank file exchange (CNAB), and the UI that operators use to review it all. The repos below are open-source, generalized rebuilds of that same problem space.
