@@ -123,21 +123,7 @@ I extract the architectural concepts from my daily fintech tasks and rebuild the
 ### 📊 GitHub Activity & Stats
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=carlosvoliv&show_icons=true&theme=tokyonight&locale=pt-br&hide_border=true" alt="Carlos's GitHub Stats" height="150" />
-      </td>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlosvoliv&layout=compact&theme=tokyonight&locale=pt-br&hide_border=true" alt="Top Languages" height="150" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle" colspan="2">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=carlosvoliv&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=carlosvoliv&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
