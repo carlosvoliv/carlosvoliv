@@ -52,16 +52,16 @@ graph TD
     I -.->|Dashboard| F
     I -.->|Manual Intervention| D
 
-    style A fill:rgba(148,163,184,0.08),stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
-    style B fill:rgba(77,179,212,0.12),stroke:#4db3d4,stroke-width:1.5px,color:#4db3d4
-    style C fill:rgba(148,163,184,0.08),stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
-    style D fill:rgba(255,107,99,0.15),stroke:#ff6b63,stroke-width:1.5px,color:#ff9b94
-    style E fill:rgba(52,211,153,0.12),stroke:#34d399,stroke-width:1.5px,color:#34d399
-    style I fill:rgba(1,154,216,0.12),stroke:#019ad8,stroke-width:1.5px,color:#4db3d4
-    style F1 fill:rgba(251,191,36,0.12),stroke:#fbbf24,stroke-width:1.5px,color:#fbbf24
-    style F2 fill:rgba(251,191,36,0.12),stroke:#fbbf24,stroke-width:1.5px,color:#fbbf24
-    style G fill:rgba(56,189,248,0.12),stroke:#38bdf8,stroke-width:1.5px,color:#38bdf8
-    style H fill:rgba(148,163,184,0.08),stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
+    style A fill:#94a3b814,stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
+    style B fill:#4db3d41f,stroke:#4db3d4,stroke-width:1.5px,color:#4db3d4
+    style C fill:#94a3b814,stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
+    style D fill:#ff6b6326,stroke:#ff6b63,stroke-width:1.5px,color:#ff9b94
+    style E fill:#34d3991f,stroke:#34d399,stroke-width:1.5px,color:#34d399
+    style I fill:#019ad81f,stroke:#019ad8,stroke-width:1.5px,color:#4db3d4
+    style F1 fill:#fbbf241f,stroke:#fbbf24,stroke-width:1.5px,color:#fbbf24
+    style F2 fill:#fbbf241f,stroke:#fbbf24,stroke-width:1.5px,color:#fbbf24
+    style G fill:#38bdf81f,stroke:#38bdf8,stroke-width:1.5px,color:#38bdf8
+    style H fill:#94a3b814,stroke:#64748b,stroke-width:1.5px,color:#e2e8f0
 ```
 
 *Note: The repositories highlighted below are open-source, generalized rebuilds of these exact fintech problem spaces.*
