@@ -16,7 +16,7 @@
 
 ---
 
-### 🚀 About Me
+### About Me
 
 I am a **Full-Stack Software Engineer** specializing in the design and development of complex **credit and financial-formalization systems**. My work sits at the intersection of business-critical operations, structured domains, and highly reliable code pipelines. 
 
@@ -24,7 +24,7 @@ With a strong foundation in **Domain-Driven Design (DDD)** and architectural pat
 
 ---
 
-### 💼 What I Do (Day to Day)
+### What I Do (Day to Day)
 
 At my day job within a private fintech, I design and build the automated pipeline that transforms a raw PDF credit document into a registered, securitized receivable. This complex flow involves:
 
@@ -70,7 +70,7 @@ graph TD
 
 ---
 
-### 🛠️ Tech Stack & Toolkit
+### Tech Stack & Toolkit
 
 #### Backend & Database
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
@@ -96,28 +96,28 @@ graph TD
 
 ---
 
-### 📂 Featured Open-Source Projects
+### Featured Open-Source Projects
 
 I extract the architectural concepts from my daily fintech tasks and rebuild them as modular, open-source packages:
 
-#### 🏦 [cnab-toolkit](https://github.com/carlosvoliv/cnab-toolkit)
+#### [cnab-toolkit](https://github.com/carlosvoliv/cnab-toolkit)
 > Schema-driven PHP engine to read, write, and validate Brazilian CNAB bank files (supporting both CNAB 240 and 400 structures with strict verification).
 > 
 > * **Key Stacks:** PHP, OOP, Schema Validation
 
-#### 📄 [credit-doc-extract](https://github.com/carlosvoliv/credit-doc-extract)
+#### [credit-doc-extract](https://github.com/carlosvoliv/credit-doc-extract)
 > A Laravel + DDD parsing system designed to ingest raw PDFs, perform rule-based structured extraction, and output clean domain objects.
 > 
 > * **Key Stacks:** Laravel, DDD, PDF Parsing, Test-Driven Development (TDD)
 
-#### 🎨 [facet-ui](https://github.com/carlosvoliv/facet-ui) · [Live Demo](https://carlosvoliv.github.io/facet-ui/)
+#### [facet-ui](https://github.com/carlosvoliv/facet-ui) · [Live Demo](https://carlosvoliv.github.io/facet-ui/)
 > A lightweight Vue 3 design system equipped with tokens-as-data, native dark mode support, and 19+ highly customizable presets.
 > 
 > * **Key Stacks:** Vue 3, TypeScript, CSS Variables, TailwindCSS
 
 ---
 
-### 📊 GitHub Activity & Stats
+### GitHub Activity & Stats
 
 <div align="center">
   <picture>
@@ -129,7 +129,7 @@ I extract the architectural concepts from my daily fintech tasks and rebuild the
 
 ---
 
-### 🤖 Daily Workflow Note
+### Daily Workflow Note
 I lean on AI tooling (such as Claude Code and Gemini-powered agents) as part of my daily engineering workflow. I treat it as an extension of my dev setup — not as a shortcut, but as a deliberate part of how I ship, refactor, and review high-quality code.
 
 📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/carlosvoliv/) or drop an email!
